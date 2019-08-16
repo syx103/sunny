@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#30ff90"
+        android:text="欢迎使用"
+        />
+    <Button
+        android:id="@+id/MMM_sss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textAllCaps="false"
+        />
+    <EditText
+        android:id="@+id/YYY_Y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入"
+        android:maxLines="2"
+        />
+    <ImageView
+        android:id="@+id/Picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/new_2"
+        />
+    <ProgressBar
+        android:id="@+id/progess_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        />
+
+</LinearLayout>
